@@ -1,0 +1,101 @@
+
+.searchtip{
+    position: fixed;
+    margin-left: 36%;
+    z-index: 10;
+    background-color: red;
+    width: 30%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow:scroll;
+    overflow-x: hidden;
+    height: 60%;
+    border-radius: 5px;
+}
+.outer{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+   /* background-color: green; */
+    z-index: 8;
+}
+.notification{
+    position: fixed;
+    margin-left: 49%;
+    z-index: 10;
+    background-color: #fff;
+    width: 40%;
+    box-shadow: rgba(116, 116, 141, 0.2) 0px 7px 29px 0px;
+    overflow:scroll;
+    overflow-x: hidden;
+    height: 40%;
+    border-radius: 5px;
+}
+.home-container{
+    
+    width: 100%;
+    height: 100%;
+}
+.hom-top-nav{
+    
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #ccc; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    z-index: 1;
+}
+.home-top-nav-icon{
+    
+    flex: 1;
+}
+.home-top-nav-logo{
+    
+    width: 100px;
+    /* margin: auto; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left:26.5% ;
+}
+.home-top-nav-logo img{
+    
+    width: 100%;
+    height: 100%;
+}
+.home-top-nav-icon-inside{
+    
+   width: 200px;
+   margin: auto;
+   height: 50px; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.home-top-nav-icons{
+    
+    flex: 1;
+}
+.home-top-nav-icons img{
+
+    width: 20px;
+    height: 20px;
+}
+.home-top-nav-icons .fill{
+    
+    display: none;
+    cursor: pointer;
+}
+.home-top-nav-icons .fill.active{
+    
+    display: block;
+    cursor: pointer;
+}
+.home-top-nav-icons .outline.active{
+    
+    display: none;
+    cursor: pointer;
+}

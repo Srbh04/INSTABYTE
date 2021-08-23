@@ -1,0 +1,131 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/media-queries.css" />
+    <link rel="icon" href="assets/images/favicon.ico" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+   
+    <style>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body,
+html {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+}
+.wrapper {
+	max-width: 700px;
+	width: 90%;
+	margin: 0 auto;
+}
+.or {
+	padding: 35px 20px;
+	position: relative;
+}
+.or:after {
+	content: "";
+	width: 100%;
+	height: 1px;
+	background: #adadad;
+	border-radius: 20px;
+	display: block;
+}
+.or span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #fff;
+	color: #a3a3a3;
+	padding: 0 10px;
+}
+.primaryColor,
+.secondaryColor {
+	padding: 0 10px;
+	cursor: pointer;
+	font-weight: bold;
+}
+.primaryColor {
+	color: #0d6efd;
+}
+.secondaryColor {
+	color: #172f80;
+}
+.form-control {
+	border-radius: 3px;
+	border: 1px solid #cfcfcf;
+	box-shadow: none !important;
+	height: 40px;
+}
+@media (max-width: 800px) {
+	.firstContainer {
+		display: none;
+	}
+	.secondContainer {
+		max-width: 350px;
+		margin: 0 auto;
+		width: 90%;
+	}
+}
+    </style>
+  </head>
+  <body>
+	<div class="wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 firstContainer">
+					<img src="app-feautures.png" alt="[+]" class="rounded d-block w-100">
+				</div>
+				<div class="col-md-6 text-center secondContainer">
+					<div class="card">
+						<div class="py-3 px-2">
+							<img src="in.png" alt="card-img-top">
+						</div>
+						<div class="card-body">
+							<form method="post">
+								<div class="form-group py-1">
+									<input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+										placeholder="Phone Number, Username or Email">
+								</div>
+								<div class="form-group py-1">
+									<input type="password" class="form-control" name="" id="" aria-describedby="helpId"
+										placeholder="Password">
+								</div>
+								<input type="submit" value="Log In" class="mt-2 btn btn-primary w-100 disabled">
+							</form>
+							<div class="or">
+								<span>OR</span>
+							</div>
+							<div class="otherMethods">
+								<div class="secondaryColor">
+									<img src="facebook-logo.png" class="img-fluid rounded" alt="[+]"
+										style="width: 18px;height: 18px">
+									<span class="ms-2">Login with Facebook</span>
+								</div>
+							</div>
+							<div class="forgot-pass mt-3 primaryColor">Forgot Password ?</div>
+						</div>
+					</div>
+					<div class="card my-2">
+						<div class="card-body">
+							<span>Don't Have an Account?</span><span class="primaryColor">Sign Up</span>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

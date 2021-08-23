@@ -1,0 +1,50 @@
+
+.list h4{
+   margin-top: 23%;
+   font-size: 16px;
+   color: #262626;
+   margin-bottom: -12%;
+   margin-left: 2%;
+    
+}
+.suggestion-card{
+    margin-top:14% ;
+    background-color: #fff;
+    padding:2%;
+   
+
+}
+.sug-list{
+    /* background-color: red; */
+}
+.follow-btn{
+    /* background-color: #0095f6; */
+    /* color:#fff; */
+    font-size: 14px;
+    padding:1% 2% 2% 2%;
+    border-radius: 5px;
+    font-weight: 500;
+    height: 30px;
+    margin-top: -7%;
+    width: 17%;
+    text-align: center;
+    /* padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%; */
+    
+}
+.nam{
+    margin-left: 9.6%;
+    margin-top: -3%;
+    font-size: 14px;
+    color: #8e8e8e;;
+}
+.user{
+    cursor:pointer;
+    margin-left:2%;
+  
+}
+.follow-btn span{
+  
+  
+}

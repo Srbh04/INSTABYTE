@@ -1,0 +1,16 @@
+
+.left{
+    background-color: grey;
+}
+.right{
+    background-color: green;
+}
+.card{
+    margin-top: 7%;
+    /* padding-top:5% */
+    /* position:sticky; */
+}
+.content{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}

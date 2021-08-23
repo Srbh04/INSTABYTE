@@ -1,0 +1,54 @@
+.cmt{
+    margin-bottom: -3.5%;
+  /* background-color: red; */
+}
+.comment{
+    margin-left: -3.5%;
+    outline: none;
+    height:47px;
+    border-right:none;
+    border-left: none;
+    margin-top:-0.3%;
+}
+.comment:focus
+{
+    outline: none;
+    box-shadow: 0 0 10px #fff
+}
+
+.post{
+    margin-right: -3.5%;
+    margin-bottom: 0.5%;
+    background-color: #fff;
+    color:#0095f6;
+    font-size:15px;
+    font-weight: 600;
+    padding-left:2%;
+   
+    padding-right: 2.4%;
+    border-top:0.5px solid rgb(163, 161, 161);
+    border-left:none;
+    border-right:none;
+    border-bottom:none;
+}
+.post:hover{
+    background-color: #fff;
+    color:#0095f6;
+}
+.post:focus{
+    outline: none;
+}
+.posttime{
+    font-size:10px;
+    color:#8E8E8E
+}
+.time{
+    font-size: 8px;
+    color:grey;
+    margin-left: 2%;
+}
+.cmnt{
+    margin-left: 2%;
+    font-size: 20px;
+    margin-top: -3%;
+}

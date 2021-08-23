@@ -1,0 +1,35 @@
+.searchcard span{
+    display: inline-block;
+    /* background-color: green; */
+}
+.searchcard{
+    cursor: pointer;
+    height: 55px;
+}
+.searchcard:hover{
+    background-color: rgb(252, 249, 249);
+}
+.image{
+    padding: 4%;
+   /* margin-top: -1%; */
+   /* background-color: red; */
+}
+.image img{
+    margin-top: -10%;
+}
+.names{
+  margin-top:-3% ;
+    margin-left: -1%;
+    /* background-color: green; */
+    
+}
+.names h6{
+    /* margin-top: 8%; */
+    font-size: 14px;
+    color: #262626;
+}
+.name p{
+    margin-top: -10%;
+    font-size: 14px;
+    color:#8E8E8E
+}

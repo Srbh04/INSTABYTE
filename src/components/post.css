@@ -1,0 +1,22 @@
+.post-card{
+    margin-top:10%;
+    margin-left: 20%;
+    border: 1px solid #262626;
+    /* box-shadow: 1px green; */
+    height: auto;
+    padding: 5%;
+    width: 60%;
+}
+.inpu{
+    padding:5px 5px;
+    width: 140%;
+    border:1px solid rgba(var(--ca6,219,219,219),1);
+    border-radius:3px ;
+    background-color: #fafafa;
+}
+::placeholder{
+    font-size:14px
+}
+.fa-plus{
+    font-size:35px;
+}
